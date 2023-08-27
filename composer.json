@@ -1,0 +1,22 @@
+{
+    "name": "xiaohuasheng0x1/erc-php",
+    "version": "1.0.0",
+    "description": "ethereum rpc client, offline sign, php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaohuasheng0x1",
+            "email": "8888028@gmail.com"
+        }
+    ],
+    "require": {
+        "simplito/elliptic-php": "^1.0",
+        "kornrunner/keccak": "^1.0",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ethereum\\": "src/"
+        }
+    }
+}
